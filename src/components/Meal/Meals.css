@@ -1,0 +1,15 @@
+.meals-container{
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 10px;
+}
+.all-meals{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px;
+}
+.carts{
+  position: sticky;
+  top: 0px;
+  background: #dbffcd;
+}

@@ -1,0 +1,21 @@
+.meal{
+  padding: 10px;
+  border: 1px solid #000;
+}
+.add-to-cart{
+  border: 2px solid #900009;
+  background: #fff;
+  color: #000;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.add-to-cart:hover{
+  background: #900009;
+  color: #fff;
+}
+.add-to-cart:active{
+  border-color: transparent;
+  transition: all 10ms;
+  background: #b3020b;
+}
